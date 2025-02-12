@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"
+/>
+    <title>PokemonInfo</title>
+</head>
+<body>
+    <div class="full">
+        <div class="navbar">
+            <div class="firstbox">
+                <div class="logo">
+                    <img src="./Images/PokeBall.png" alt="logo">
+                </div>
+                <div class="appname">
+                    <p>PokeInfo</p>
+                </div>
+            </div>
+            <div class="secondbox">
+                <ul class="navlinks">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+                <i class="ri-menu-3-line"></i>
+
+            </div>
+        </div>
+        <div class="main">
+            <div class="topsec">
+                <div class="searchbox">
+                    <input type="text" id="search" placeholder="Search Pokemon">
+                    <button id="searchbtn">Search</button>
+                </div>
+            </div>  
+           <div class="final">
+            <div class="resultbox">
+                <div class="imgbox">
+                    <img src="" id="pokemonimg" >
+                </div>
+                <div class="infobox">
+                    <div class="name">
+                        <p> <span id="name"></span></p>
+                    </div>
+                    <div class="type">
+                        <p> <span id="type"></span></p>
+                    </div>
+                </div>
+        </div>
+           </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
